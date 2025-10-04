@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio Profesional</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+      <h1>Andrea Díaz</h1>
+      <nav>
+          <ul>
+              <li><button class="tab-btn" data-target="inicio">Inicio</button></li>
+              <li><button class="tab-btn" data-target="habilidades">Habilidades</button></li>
+              <li><button class="tab-btn" data-target="proyectos">Proyectos</button></li>
+              <li><button class="tab-btn" data-target="testimonios">Testimonios</button></li>
+              <li><button class="tab-btn" data-target="contacto">Contacto</button></li>
+          </ul>
+      </nav>
+  </header>
+
+  <main>
+      <!-- Inicio -->
+      <section id="inicio" class="tab-content active">
+          <h2> Bienvenidos a mi Portafolio</h2>
+          <p>
+            ¡Hola! Soy <strong>Andrea Díaz</strong>, estudiante de Ingeniería.  
+            Me gusta aprender cosas nuevas, crear proyectos web y buscar soluciones creativas.  
+            Aquí encontrarás un poco de lo que soy y lo que hago .
+          </p>
+      </section>
+
+      <!-- Habilidades -->
+      <section id="habilidades" class="tab-content">
+          <h2>🛠 Habilidades</h2>
+          <div class="card">
+              <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript básico</li>
+                  <li>Python</li>
+                  <li>Trabajo en equipo</li>
+              </ul>
+          </div>
+      </section>
+
+      <!-- Proyectos -->
+      <section id="proyectos" class="tab-content">
+          <h2>📂 Proyectos</h2>
+
+          <div class="card">
+              <h3>Cajero Automático</h3>
+              <p>Simulación de un cajero automático donde el usuario puede ingresar, retirar y consultar saldo.</p>
+              <a href="https://llarecsi.github.io/Andrea-Diaz/" target="_blank">🌐 Ver Proyecto</a> | 
+              <a href="https://github.com/llarecsi/Andrea-Diaz" target="_blank">🔗 Ver en GitHub</a>
+              
+          </div>
+
+          <div class="card">
+              <h3>Portafolio</h3>
+              <p>Este portafolio como muestra de mis habilidades en desarrollo web.</p>
+              <a href="https://github.com/llarecsi/Andrea-Diaz.git" target="_blank">🔗 Ver en GitHub</a>
+          </div>
+      </section>
+
+      <!-- Testimonios -->
+      <section id="testimonios" class="tab-content">
+          <h2>💬 Testimonios</h2>
+          <blockquote>“Andrea realiza un gran apoyo laboral.”</blockquote>
+          <blockquote>“Excelente actitud y habilidades técnicas.”</blockquote>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contacto" class="tab-content">
+          <h2>📞 Contacto</h2>
+          <p>Email: <a href="mailto:diazdavilaandrea@gmail.com">diazdavilaandrea@gmail.com</a></p>
+          <p>Teléfono: <a href="tel:+50686986970">+506 8698 6970</a></p>
+      </section>
+  </main>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
